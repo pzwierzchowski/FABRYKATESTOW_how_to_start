@@ -1,1 +1,2 @@
-# FABRYKATESTOW_webinar_how_to_start
+# fabrykaTestow
+Fabryka Testów - kurs Pythona
