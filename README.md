@@ -1,2 +1,2 @@
 # fabrykaTestow
-Fabryka Testów - kurs Pythona
+Fabryka Testów - kurs Pythona i Selenium
