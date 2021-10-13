@@ -30,6 +30,7 @@ def code_200(driver_instance):
     else:
         return False
 
+
 def code_305(driver_instance):
     wait_for_visibility_of_element(driver_instance, code305id)
     code305 = driver_instance.find_element_by_id(code305id)

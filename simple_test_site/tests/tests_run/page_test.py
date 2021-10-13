@@ -1,7 +1,9 @@
 import unittest
 from selenium import webdriver
 from simple_test_site.config.test_settings import TestSettings
-from simple_test_site.tests.page_objects import main_page, users_page, inputs_page, hovers_page, dropdown_page, checkboxes_page, add_remove_page, date_picker_page, basic_auth_page, form_page, key_presses_page, drag_and_drop_page, status_codes_page, iframe_page
+from simple_test_site.tests.page_objects import main_page, users_page, inputs_page, hovers_page, dropdown_page,\
+    checkboxes_page, add_remove_page, date_picker_page, basic_auth_page, form_page, key_presses_page,\
+    drag_and_drop_page, status_codes_page, iframe_page
 
 
 class Tests(unittest.TestCase):
@@ -148,6 +150,7 @@ class Tests(unittest.TestCase):
     def test32_iframe_click_second_button(self):
         iframe_page.click_iframe_tab(self.driver)
         self.assertTrue(iframe_page.click_inside_iframe(self.driver))
+
 
 if __name__ == '__main__':
     unittest.main()
